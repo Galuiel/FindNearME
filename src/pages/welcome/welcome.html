@@ -1,0 +1,54 @@
+
+<ion-slides pager>
+
+  <!--The first slider-->
+  <ion-slide style="background-color: #41c6f1">
+       <ion-icon ios="ios-globe" md="md-globe" style="zoom:5.0;"></ion-icon>
+    <h1 style="color: #ebebeb">Howdy, look for any place?</h1>
+    <p style="font-family: open-sans; font-size: 14px; color:#ebebeb"> Find Near me helps on your <b>own</b> terms, <i> anywhere in the world!</i>!</p>
+
+    <!-- Button to continue -->
+    <div style="position:absolute; bottom: 120px; text-align: center; z-index:1000; width:100%">
+      <button ion-button color="myWhite" round outline [navPush]="nextPage">Let's Go!</button> 
+    </div>
+  </ion-slide>
+
+  <!--The second slider-->
+  <ion-slide style="background-color: #8bc34a">
+      <ion-icon ios="ios-heart" md="md-heart" style="zoom:5.0;"></ion-icon>
+    <h1 style="color: #ebebeb">Movie Theater, Tourist Place or Lover Pint!!! Hmm...</h1>
+    <p style="font-family: open-sans; font-size: 14px; color:#ebebeb"> Cach-up any place <b>with</b> your own <i> desired root!</i>.</p>
+
+    <!-- Button to continue -->
+    <div style="position:absolute; bottom: 120px; text-align: center; z-index:1000; width:100%">
+      <button ion-button color="myWhite" round outline [navPush]="nextPage">Let's Go!</button> 
+    </div>
+  </ion-slide>
+
+  <!--The third slider-->
+  <ion-slide style="background-color: #ff9800">
+      <ion-icon ios="ios-globe" md="md-globe" style="zoom:5.0;"></ion-icon>
+    <h1 style="color: #ebebeb">Restaurants, Grocery Stores, Hospitals, Toilets</h1>
+    <p style="font-family: open-sans; font-size: 14px; color:#ebebeb"> Ask <b>any</b> help, <b>Find Near Me</b> wokrs on your <i> any device</i>!</p>
+
+    <!-- Button to continue -->
+    <div style="position:absolute; bottom: 120px; text-align: center; z-index:1000; width:100%">
+      <button ion-button color="myWhite" round outline [navPush]="nextPage">Let's Go!</button> 
+    </div>
+  </ion-slide>
+
+  <!--The last with BG IMAGE for backgorund slider-->
+  <ion-slide class="bg-image">
+    <h1 style="color: #ebebeb">Welcome to Find Near Me!</h1>
+    <h4 style="color: #ebebeb">Your Personal Companion</h4>
+    <h2 class="padding" style="font-family:open-sans; font-size: 14px; color:#ebebeb">
+      Anythime, Anywhere, Together
+    </h2>
+
+    <!-- Button to continue -->
+    <div style="position:absolute; bottom: 120px; text-align: center; z-index:1000; width:100%">
+      <button ion-button color="myWhite" round outline [navPush]="nextPage">Let's Go!</button> 
+    </div>
+  </ion-slide>
+
+</ion-slides>

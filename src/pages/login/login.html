@@ -1,0 +1,37 @@
+<!-- This is login page of Find Near ME -->
+<ion-content class="bg-image no-scroll" padding>
+    <!--Logo of App-->
+      <img src="assets/imgs/logo.png" class="logo">
+
+      <!-- Username and Password field with proper label-->
+      <div>
+        <ion-list class="list" inset>
+          <ion-item class="label">
+            <ion-label color="myWhite" style="font-size: 12px" stacked>Username</ion-label>
+            <ion-input type="text" placeholder="Enter Username"></ion-input>
+          </ion-item>
+        
+          <ion-item class="label">
+            <ion-label color="myWhite" style="font-size: 12px" stacked>Password</ion-label>
+            <ion-input color="myWhite" type="password" placeholder="Enter Password"></ion-input>
+          </ion-item> 
+        </ion-list>
+      </div>
+
+      <!--Buttons-->
+      <p class="text" style="font-family: open-sans; font-size: 14px; color:#ebebeb">Forgot your Password?</p>
+
+      <div text-center>
+        <button class="btnWidth" ion-button color="secondary" round outline [navPush]="nextPage">Login</button>
+      </div>
+
+      <div text-center>
+        <button class="btnButton" ion-button color="myWhite" round outline [navPush]="nextPage">Sign Up</button>
+      </div>
+
+      <img scr="assets/imgs/facebook.png" class="fb-button">
+
+      <img scr="assets/imgs/twitter.png" class="twitter-button">
+
+  <!--Make sure to remember that eventually actions wil be added, click events, etc.-->
+</ion-content>
